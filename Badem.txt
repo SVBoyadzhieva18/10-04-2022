@@ -1,0 +1,56 @@
+public class Bademi {
+    String sort;
+    double weightInGrams;
+    int eatenAlmonds;
+    double pricePerKg;
+    double eatenKcal;
+
+
+    public Bademi(String sort, double weightInGrams, int eatenAlmonds, double pricePerKg, double eatenKcal) {
+        this.sort = "sweet almond";
+        this.weightInGrams = 200;
+        this.eatenAlmonds = 10;
+        this.pricePerKg = 20;
+        this.eatenKcal = 1100;
+    }
+
+    public String getSort() {
+        return sort;
+    }
+
+    public void setSort(String sort) {
+        this.sort = sort;
+    }
+
+    public double getWeightInGrams() {
+        return weightInGrams;
+    }
+
+    public void setWeightInGrams(double weightInGrams) {
+        this.weightInGrams = weightInGrams;
+    }
+
+    public int getEatenAlmonds() {
+        return eatenAlmonds;
+    }
+
+    public void setEatenAlmonds(int eatenAlmonds) {
+        this.eatenAlmonds = eatenAlmonds;
+    }
+
+    public double getPricePerKg() {
+        return pricePerKg;
+    }
+
+    public void setPricePerKg(double pricePerKg) {
+        this.pricePerKg = pricePerKg;
+    }
+
+    public double getEatenKcal() {
+        return eatenKcal;
+    }
+
+    public void setEatenKcal(double eatenKcal) {
+        this.eatenKcal = eatenKcal;
+    }
+}
